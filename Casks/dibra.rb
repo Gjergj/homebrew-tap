@@ -3,7 +3,7 @@ cask "dibra" do
   name "dibra"
   desc "A minimal Ansible-like configuration management tool written in Go"
   homepage "https://github.com/Gjergj/dibra"
-  version "0.0.11"
+  version "0.0.13"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "dibra" do
     on_intel do
       url "https://github.com/Gjergj/dibra/releases/download/v#{version}/dibra_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/Gjergj/dibra/"
-      sha256 "2d2c7a54bce4950fa2bc9b2acf24226bcf8de28bb56299cdb13fde07269b130f"
+      sha256 "ca7835df4505ccc983afdb590e8586f541122d1699b17839c522d2de3c9db35d"
     end
     on_arm do
       url "https://github.com/Gjergj/dibra/releases/download/v#{version}/dibra_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/Gjergj/dibra/"
-      sha256 "07c00bb0b5080aa8c99f0305501e4236a98c5dfe508988612f5e725bee8f28ba"
+      sha256 "bafba1394a8978de85cefd4699474be7546faa4f4406af88d867302e6e154d5c"
     end
   end
 
@@ -28,12 +28,12 @@ cask "dibra" do
     on_intel do
       url "https://github.com/Gjergj/dibra/releases/download/v#{version}/dibra_#{version}_linux_amd64.tar.gz",
         verified: "github.com/Gjergj/dibra/"
-      sha256 "1089c85a278e1dd276784c2cc9675784e97592f226c1c2c2d53603773fcde68b"
+      sha256 "9cbab475e86d24591ca1124804d76205ab0817b1768fb4ca64bcb4b614bf8f25"
     end
     on_arm do
       url "https://github.com/Gjergj/dibra/releases/download/v#{version}/dibra_#{version}_linux_arm64.tar.gz",
         verified: "github.com/Gjergj/dibra/"
-      sha256 "66d0214a34fed8bd177ae672bdfb18e898fd5f85881b1adbc552deb1af6e2a89"
+      sha256 "936b7bc4afbeb75d08033b885f76334e4ac1502c5c8b66868bf1cbe8fd45cc13"
     end
   end
 
